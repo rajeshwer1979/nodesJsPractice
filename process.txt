@@ -1,0 +1,70 @@
+//What Is Node.js?
+https://nodejs.org/dist/latest-v20.x/docs/api/
+
+Javascript Runtime( NOT a language or framework)
+Built on the V8 js engine(Same a Google Chrome)
+Written in C++
+Essentially allows us to run Javascript code on the server
+
+//Why Use Node?
+Fast, efficient and highly scalable
+Event driven, nonclcking I/O model
+Popular in the industry
+Same language on the front and back end(JS)
+
+//What is Node Event Loop?
+Single threaded
+Supports concurrency via events & callbacks
+EventEmitter class is used to bind events and listeners
+EventEmitters --> Events (Event Loop) --> {Event Handler}
+
+//Best Types of Projects for Node:-
+REST API & Microservices
+(RTS)Real Time Services(Chat, Live Udpates)
+CRUD Apps - Blogs, Shopping Carts, Social Networks
+Tools & Uitilites
+
+
+//NPM - Node package manager:-
+Install 3rd party packages (frameworks, libraries, toos, etc)
+Packages get stored in the "node_modules" folder
+All dependencies are listed in a "package.json" file
+NPM scripts can be created to run certain tasks such as run a server
+
+npm init                --> Generates a package.json file
+npm install express     --> Installs a package locally
+npm install -g nodemon  --> Installs a package globally
+
+//Node Modules :-
+Node Core Modules (path, fs, http, etc)
+3rd party modules/packages installed via NPM
+Custom modules(files)
+
+const path = require('path');
+const myFile = require('./myFile');
+
+
+
+
+
+//Javascript Fundamentals ( Objects, Arrays, Conditionals, etc)
+
+It may help to learn these first:-
+HTTP(status codes, headers, etc)
+JSON
+Arrow Functions
+Promises
+MVC Pattern
+
+
+//commands
+npm init
+npm i uuid
+npm i -D nodemon
+node index.js
+
+npm cache clean --force
+npm install
+npm install udpate
+
+npm i -g stylelint@version
